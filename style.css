@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #24292e;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-top: 12px;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav input {
+    color: #d5d8db;
+    margin-top: 12px;
+    margin-left: 20px;
+    height: 25px;
+    background-color: #000000b5;
+    border: solid #6f7476 1px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding-left: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+
+  main {
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile h2 {
+    margin-top: 20px;
+  }
+  
+  .repos {
+    margin-top: 40px;
+  }
+  
+  .repos h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* .repos ul {
+
+  } */
+  .repos a:hover {
+    text-decoration: underline !important ;
+    color: #0366d6;
+  }
+
+  .repos a:link {
+    text-decoration: #d5dbe1 ;
+    color: #0366d6;  
+}
+
+  .repos li {
+    color: #0366d6;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ffffff;
+    border: solid #dde1e4d1 2px;
+    border-radius: 15px;
+    display: inline-block;
+  }
+  
+  footer {
+    background-color: #f6f8fa;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+  
+  @media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #0366d6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    }
