@@ -3,3 +3,4 @@ A simple github Profile.
 <li>non-responsive</li>
 <li>js used only for asthetics</li>
 </ul>
+<b>For venatus recruitment</b>
