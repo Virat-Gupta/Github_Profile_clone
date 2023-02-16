@@ -12,13 +12,26 @@
   header {
     background-color: #24292e;
     color: #fff;
-    padding: 20px;
+    padding: 15px;
   }
   
   header h1 {
     margin: 0;
   }
+  .searchbox {
+    border: 1px solid #7a7a7a ;
+    padding: 1px;
+    display: inline-block;
+    background-color: #151617;
+    box-sizing: border-box;
+    height: 27px;
+    width: 275px;
+    margin-top: 10px;
+    border-radius: 6px;
+    margin-left: 5px;
+    margin-right: 10px;
 
+  }
   nav ul {
     list-style: none;
     display: flex;
@@ -34,18 +47,32 @@
     text-decoration: none;
   }
   nav input {
-    color: #d5d8db;
-    margin-top: 12px;
-    margin-left: 20px;
-    height: 25px;
-    background-color: #000000b5;
-    border: solid #6f7476 1px;
-    border-radius: 5px;
-    margin-right: 20px;
-    padding-left: 3px;
-    font-family:Arial, Helvetica, sans-serif;
-  }
+  background-color: transparent;
+  color: #ffffff !important;
+  outline: none;
+  position: absolute;
+  margin-top: 3px;
+  width: 240px;
+  border: none;
+  margin-left: 5px;
 
+  }
+  nav input::-webkit-input-placeholder {
+    color: #989393;
+  }
+  .btn1 {
+    position: absolute;
+    margin-top: 1px;
+    margin-left:  249px;
+    box-shadow: none;
+    background-color: transparent;
+    border: 1px solid #7a7a7a;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 21px;
+    width: 20px;
+    color: #7a7a7a;
+  }
 
   main {
     padding: 20px;
@@ -142,7 +169,7 @@
     height: 60px;
     width: 100%;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
 }
   
   @media (max-width: 600px) {
