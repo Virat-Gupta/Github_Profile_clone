@@ -1,4 +1,4 @@
-* {
+ {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -18,7 +18,7 @@
   header h1 {
     margin: 0;
   }
-  
+
   nav ul {
     list-style: none;
     display: flex;
@@ -60,17 +60,31 @@
     text-align: center;
   }
   
-  .profile img {
+  .pic{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
   }
+
+  .folcon {
+    height: 10%;
+    width: 20px;
+  }
   
   .profile h2 {
     margin-top: 20px;
   }
-  
+.follw:hover {
+  text-decoration: underline !important;
+  color: #6f7476 !important;
+}
+
+.follw:link, .follw:visited {
+  text-decoration: none;
+  color: #3f4143;
+}
+
   .repos {
     margin-top: 40px;
   }
@@ -84,10 +98,10 @@
   } */
   .repos a:hover {
     text-decoration: underline !important ;
-    color: #0366d6;
+    color: #0366d6 !important;
   }
 
-  .repos a:link {
+  .repos a:link, .repos a:visited {
     text-decoration: #d5dbe1 ;
     color: #0366d6;  
 }
@@ -100,8 +114,26 @@
     border: solid #dde1e4d1 2px;
     border-radius: 15px;
     display: inline-block;
+    box-sizing: border-box;
+    height: 150px;
+    width: 500px;
   }
-  
+
+  .repos p {
+    color: #aaafb1;
+    font-size: 13px;
+  }
+
+  .icn {
+    height: 10%;
+    width: 15px;
+  }
+  .code {
+    font-size: 15px !important;
+    color: #aaafb1;
+  }
+
+
   footer {
     background-color: #f6f8fa;
     position: absolute;
